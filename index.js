@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to the Express API sample app in final change' });
+  res.json({ message: 'Welcome to the Express API sample application' });
 });
 
 app.get('/api/hello', (req, res) => {
